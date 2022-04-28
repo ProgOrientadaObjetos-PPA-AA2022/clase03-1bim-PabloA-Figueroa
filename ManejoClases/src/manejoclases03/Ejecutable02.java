@@ -27,6 +27,18 @@ public class Ejecutable02 {
         
         System.out.printf("%s\n", h1.obtenerNombre());
         
+        System.out.printf("%s\n", h2.obtenerNombre());
+        
+        h2.establecerNombre("El Hospital MIlitar");
+        
+        System.out.printf("%s\n", h2.obtenerNombre());
+        
+        System.out.printf("%s\n", h3.obtenerNombre());
+        
+        h3.establecerNombre("The Hospital Manuel IM");
+        
+        System.out.printf("%s\n", h3.obtenerNombre());
+        
         
     }
 }

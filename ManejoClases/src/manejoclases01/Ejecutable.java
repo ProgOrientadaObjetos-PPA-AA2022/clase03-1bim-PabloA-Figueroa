@@ -11,6 +11,7 @@ public class Ejecutable {
         // Se crea un objeto
         Hospital hospital = new Hospital();
         
+        
         // Se asigna valores particulares al objeto
         hospital.nombre = "Isidro Ayora";
         hospital.numeroCamas = 100;
@@ -21,5 +22,13 @@ public class Ejecutable {
                 hospital.numeroCamas, hospital.presupuesto);
         
         // System.out.println(hospital.nombre + "-" + hospital.numeroCamas);
+        Hospital hospital2 = new Hospital();
+        hospital2.nombre = "Militar de Loja";
+        hospital2.numeroCamas = 14584;
+        hospital2.presupuesto = 99999999940.43;
+        
+        // Se presenta valores en pantalla
+        System.out.printf("%s - %d - %.2f\n", hospital2.nombre,
+                hospital2.numeroCamas, hospital2.presupuesto);
     }
 }

@@ -6,7 +6,7 @@
 package manejoclases02;
 
 public class Hospital {
-    private String nombre;
+    String nombre;
     private int numeroCamas;
     private double presupuesto;
 }
